@@ -7,7 +7,7 @@
   "frontend:dev:watcher": "pnpm run dev",
   "frontend:dev:serverUrl": "auto",
   "author": {
-    "name": "zhouwei",
-    "email": "zhouwei1@cheyipai.com"
+    "name": "misterzhou",
+    "email": "16619930394@163.com"
   }
 }
