@@ -1,22 +1,7 @@
-# README
-
-## About
-
-This is the official Wails Vue-TS template.
-
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
-
-## Live Development
-
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
-
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+## MZ-Sync-Helper
+文件同步助手，同一局域网内，在不同设备上通过链接同步读取文件
+- 文件同步、共享
+- api接口服务
 
 ## 设置环境变量
 mac
@@ -24,3 +9,10 @@ mac
 export ENV=development && wails dev
 export ENV=production && wails build
 ```
+
+## 技术栈
+```js
+go + vue3 + jsx + vite
+```
+
+## api接口
